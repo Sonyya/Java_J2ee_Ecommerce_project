@@ -1,0 +1,387 @@
+body {
+  padding-top: 5rem;
+   background-image: url("../images/daniel-salgado-1Zk4TMt1P6U-unsplash.jpg");
+     background-repeat:no-repeat;
+    background-color: #fffbf6;
+
+     background-size: cover;
+    margin: 0;
+     /* font-family: "Sofia";*/
+    font-family: "Poppins";
+       
+}
+#Title
+{
+      font-family: "Pacifico";
+}
+
+
+/*img{
+   
+  border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+ 
+  
+}*/
+#cmd
+{
+    margin-left: 230%; 
+    margin-bottom: 10%;
+    margin-top: 10%;
+    background-color: burlywood;
+     font-family: "Poppins";
+}
+
+Strong{
+     font-family: "Poppins";
+    font-size: 120%;
+}
+nav
+{
+   /*background-color:burlywood;*/
+    
+    background-color: transparent;
+    font-family: "Sofia";
+    position: absolute;
+
+       
+}
+
+.collapse navbar-collapse : hover
+{
+    background-color: burlywood;
+}
+.quantity   {
+     box-sizing: border-box;
+    
+}
+.box{
+    border-radius: 30%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 38%;
+    height: 150px;
+    background-color: antiquewhite;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+#payementBtn
+{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#total
+{
+    margin-left:  40%;
+    margin-top: 5%;
+}
+
+.box2{
+    border-radius: 30%;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 30%;
+    
+     box-sizing: border-box;
+   
+    background-color: antiquewhite;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 150%;
+}
+.enonce{
+ 
+    margin-top: 5%;
+}
+.titre{
+ 
+    margin-top: 5%;
+}
+
+.loginBtn{
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#quantity1
+{
+
+    width: 25%;
+
+
+}
+#produitTbl
+{
+    margin-top: 1%;
+}
+.PrixQte{
+    display: flex;
+    
+}
+
+#Qte{
+    display: flex;
+    margin-left: 35%;
+}
+
+#BasDePage
+{
+   /* background-image: url("/images/irina-iriser-AV0M5WwJGwM-unsplash.jpg");*/
+    background-size: 200vh 50vh;
+    background-color:burlywood;
+    border-radius: 5%;   
+}
+
+.row
+{
+    margin:0;
+}
+
+.navbar-nav mr-auto li a {
+    
+    color : black;
+}
+
+.container
+{
+    padding: 0;
+}
+
+table{
+    background-color: antiquewhite;
+      border-collapse: collapse;
+        width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30%;
+}
+td, th {
+  border: 3px solid #ffffff;
+  text-align: center;
+  padding: 8px;
+}
+
+a.btn.btn-primary
+{
+    background-color: darkgoldenrod;
+}
+
+@media only screen and (max-width: 420px) and (min-width: 100px) {
+  /* For mobile phones: */
+  /*[class*="col-"] {
+    width: 100%;
+  }*/
+    
+    nav.navbar {
+    background: burlywood;
+        opacity: 0.95;
+        position:absolute;
+       left:0%;
+       top:0%;
+       margin: 0px;
+       padding: 0;
+       border-bottom: none;
+       width:100%;
+        
+       z-index:9999;
+          /*display: flex;*/
+  }
+    #logoImage img{
+        height: 80px;
+        width: 100px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #Title{
+         font-size: 75%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    button.navbar-toggler{
+                border-color: yellow;
+        }
+    
+   
+        caption{
+
+            caption-side: top;
+        } 
+        button.navbar-toggler{
+                    border-color: yellow;
+            }
+
+
+
+        body {
+            padding-top: 5rem;
+
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-size: auto;
+            margin: 0;
+            font-family: "Sofia";
+
+        }
+
+        table{
+        background-color: antiquewhite;
+          border-collapse: collapse;
+            margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+            }
+        td, th {
+          border: 3px solid #ffffff;
+          text-align: center;
+          padding: 8px;
+        }
+
+        #cmd
+    {
+        margin-left: 15%; 
+        margin-bottom: 10%;
+        margin-top: 10%;
+        background-color: burlywood;
+         font-family: "Poppins";
+    }
+
+}
+
+#lblCartCount{
+    vertical-align: top;
+    margin-left: -20%; 
+    margin-top: -10%; 
+    
+}
+/*changement pour le mode ipad*/
+@media only screen and (max-width: 800px)  and (min-width: 450px)
+{
+    
+       
+   nav.navbar {
+    background: burlywood;
+        opacity: 0.95;
+        position:absolute;
+       left:0%;
+       top:0%;
+       margin: 0px;
+       padding: 0;
+       border-bottom: none;
+       width:100%;
+        
+       z-index:9999;
+          /*display: flex;*/
+  }
+    #logoImage img{
+        height: 80px;
+        width: 100px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #Title{
+         font-size: 75%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    button.navbar-toggler{
+                border-color: yellow;
+        }
+    
+
+  
+    body {
+        /* background-size: cover;*/
+          background-attachment: fixed;
+    }
+    
+  table{
+    background-color: antiquewhite;
+      border-collapse: collapse;
+       margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+       
+        }
+    
+    
+    #cmd
+    {
+        margin-left: 85%; 
+        margin-bottom: 10%;
+        margin-top: 10%;
+        background-color: burlywood;
+         font-family: "Poppins";
+    }
+    
+    
+}
+
+
+
+/*changement pour le mode ipadPro*/
+@media only screen and (max-width: 1200px)  and (min-width: 810px)
+{
+        
+   nav.navbar {
+    background: burlywood;
+        opacity: 0.95;
+        position:absolute;
+       left:0%;
+       top:0%;
+       margin: 0px;
+       padding: 0;
+       border-bottom: none;
+       width:100%;
+        
+       z-index:9999;
+          /*display: flex;*/
+    }
+    #logoImage img{
+        height: 80px;
+        width: 100px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #Title{
+         font-size: 75%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    button.navbar-toggler{
+                border-color: yellow;
+        }
+    
+
+  
+    body {
+        /* background-size: cover;*/
+          background-attachment: fixed;
+    }
+    
+  table{
+    background-color: antiquewhite;
+      border-collapse: collapse;
+      margin: 0%;
+       
+        }
+    
+    
+    #cmd
+    {
+        margin-left: 130%; 
+        margin-bottom: 10%;
+        margin-top: 10%;
+        background-color: burlywood;
+         font-family: "Poppins";
+    }
+}
+    
+    
+
+

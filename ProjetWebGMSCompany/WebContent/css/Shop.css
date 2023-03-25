@@ -1,0 +1,229 @@
+body {
+  padding-top: 5rem;
+   background-image: url("../images/chuttersnap-iQVn40PdwW0-unsplash.jpg");
+     background-repeat:no-repeat;
+    background-color: #fffbf6;
+
+     background-size: cover;
+    margin: 0;
+      font-family: "Sofia";
+       
+}
+#Title
+{
+      font-family: "Pacifico";
+}
+
+
+/*img{
+   
+  border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+ 
+  
+}*/
+
+
+
+nav
+{
+   /*background-color:burlywood;*/
+    
+    background-color: transparent;
+    font-family: "Sofia";
+    position: absolute;
+
+       
+}
+
+.collapse navbar-collapse : hover
+{
+    background-color: burlywood;
+}
+
+#BasDePage
+{
+   /* background-image: url("/images/irina-iriser-AV0M5WwJGwM-unsplash.jpg");*/
+    background-size: 200vh 50vh;
+    background-color:burlywood;
+   
+    border-radius: 5%;
+    
+}
+
+.row
+{
+    margin:0;
+}
+
+.navbar-nav mr-auto li a {
+    
+    color : black;
+}
+
+.container
+{
+    padding: 0;
+}
+
+
+
+#lblCartCount{
+    vertical-align:top;
+    margin-left:-20%; 
+    margin-top:-10%; 
+    
+}
+
+
+.card{
+    margin: 5%;
+    background: black;
+    opacity: 0.8;
+/*
+     border-bottom-right-radius: 15%;
+    border-top-left-radius: 15%;
+*/
+    border-radius: 10%;
+    width: 50%;
+    color:white;
+}
+
+
+.card-title
+{
+    text-align: center;
+}
+
+.quantity   {
+     box-sizing: border-box;
+    
+}
+
+.PrixQte{
+    display: flex;
+    
+}
+
+#Qte{
+    display: flex;
+}
+.RentBtn{
+    
+    margin-top: 10%;
+    margin-left: 37%;
+    
+}
+
+a.btn.btn-primary
+{
+    background-color: darkgoldenrod;
+}
+
+.quantity-left-minus{
+    float:left;
+    
+}
+
+.card-img-top{
+    height: 300px;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+@media only screen and (max-width: 360px)  and (min-width: 100px) {
+  /* For mobile phones: */
+  /*[class*="col-"] {
+    width: 100%;
+  }*/
+    
+   
+   nav.navbar {
+    background: burlywood;
+        opacity: 0.95;
+        position:absolute;
+       left:0%;
+       top:0%;
+       margin: 0px;
+       padding: 0;
+       border-bottom: none;
+       width:100%;
+        
+       z-index:9999;
+          /*display: flex;*/
+  }
+    #logoImage img{
+        height: 80px;
+        width: 100px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #Title{
+         font-size: 75%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    button.navbar-toggler{
+                border-color: yellow;
+        }
+    
+   
+  
+    body {
+        padding-top: 5rem;
+        background-image: url("../images/chuttersnap-iQVn40PdwW0-unsplash.jpg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: auto;
+        margin: 0;
+        font-family: "Sofia";
+       
+    }
+    
+  
+}
+
+/*changement pour le mode ipad*/
+@media only screen and (max-width: 800px)  and (min-width: 450px)
+{
+    body {
+        /* background-size: cover;*/
+          background-attachment: fixed;
+    }
+    
+    .card{
+    margin-top: 5%;
+    background: black;
+    opacity: 0.8;
+    border-radius: 10%;
+    width: 20%;
+    color:white;
+    }
+
+    
+    
+}
+
+
+/*changement pour le mode ipadPro*/
+@media only screen and (max-width: 1300px) (min-width: 810px)
+{
+    body {
+        /* background-size: cover;*/
+          background-attachment: fixed;
+    }
+    
+    .card{
+    margin: 5%;
+    background: black;
+    opacity: 0.8;
+    border-radius: 10%;
+    width: 20%;
+    color:white;
+    }
+
+    
+    
+}
+

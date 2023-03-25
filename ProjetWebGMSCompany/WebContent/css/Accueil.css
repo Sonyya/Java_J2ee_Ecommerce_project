@@ -1,0 +1,243 @@
+body {
+  padding-top: 5rem;
+   /*background-image: url("/images/irina-iriser-AV0M5WwJGwM-unsplash.jpg");*/
+    background-color: #fff5e9;
+     background-size: cover;
+    margin: 0;
+      font-family: "Sofia";
+       
+}
+
+
+img{
+   
+  border-radius: 100%;
+ 
+  
+}
+
+#Title
+{
+      font-family: "Pacifico";
+}
+
+
+nav
+{
+   /*background-color:burlywood;*/
+    
+    background-color: transparent;
+    font-family: "Sofia";
+    position: absolute;
+       
+}
+
+.collapse navbar-collapse : hover
+{
+    background-color: burlywood;
+}
+
+#BasDePage
+{
+     background-image: url("../images/sweet-ice-cream-photography-SurmPrJ4Rts-unsplash.jpg");
+    background-size: 200vh 50vh;
+    background-color:burlywood;
+    opacity: 0.2;
+    border-radius: 5%;
+    
+}
+
+.row
+{
+    margin:0;
+}
+
+.navbar-nav mr-auto li a {
+    
+    color : black;
+}
+
+.container
+{
+    padding: 0;
+}
+
+#lblCartCount{
+    vertical-align:top;
+    margin-left:-20%; 
+    margin-top:-10%; 
+    
+}
+
+
+.carousel-inner .carousel-item{
+    
+    height: 100vh;
+}
+
+.banner {
+    -webkit-background-size : cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.carousel-caption{
+  padding-bottom: 150px;
+    font-family: "Poppins";
+    
+}
+.carousel-caption h2{
+  font-size: 50px;
+  text-transform: uppercase;
+font-weight: bold;
+}
+
+.carousel-caption h2 span{
+  color : coral;
+}
+
+.carousel-caption a{
+  background : coral;
+    padding: 15px 35px;
+    display: inline-block;
+    margin-top: 15px;
+    color:black;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.carousel-control.right{
+  background-image: none;
+}
+.carousel-control.left{
+  background-image: none;
+}
+
+.carousel-indicators .active{
+  background-color: coral;
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) 
+{
+    #carouselDiv
+    {
+        padding-bottom: 95vh;
+    }
+
+}
+
+.carousel-inner .carousel-item >  .banner
+{
+    
+  -webkit-animation : zoomEffect 20s;
+    -o-animation: zoomEffect 20s;
+    animation: zoomEffect 20s;
+    
+    
+}
+
+@keyframes zoomEffect
+{
+    from 
+    {
+        transform: scale(1,1);
+    }
+    to 
+    {
+        transform: scale(1.5,1.5);
+        
+    }
+}
+
+
+/*chanement affectant les telephone*/
+@media only screen and (max-width: 400px)  and (min-width: 100px) {
+  /* For mobile phones: */
+  /*[class*="col-"] {
+    width: 100%;
+  }*/
+    
+   
+   nav.navbar {
+    /* background-color: burlywood;
+     opacity: 0.8;*/
+        position:absolute;
+       left:0%;
+       top:0%;
+       margin: 0px;
+       padding: 0;
+       border-bottom: none;
+       width:100%;
+        
+       z-index:9999;
+          /*display: flex;*/
+  }
+    #logoImage img{
+        height: 80px;
+        width: 100px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #Title{
+         font-size: 75%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    button.navbar-toggler{
+                border-color: yellow;
+        }
+    
+   
+  
+    
+  
+}
+
+
+@media only screen and (max-width: 800px)  and (min-width: 450px) {
+  /* For mobile phones: */
+  /*[class*="col-"] {
+    width: 100%;
+  }*/
+    
+   
+   nav.navbar {
+   
+        position:absolute;
+       left:0%;
+       top:0%;
+       margin: 0px;
+       padding: 0;
+       border-bottom: none;
+       width:100%;
+        
+       z-index:9999;
+          /*display: flex;*/
+  }
+    #logoImage img{
+        height: 80px;
+        width: 100px;
+        padding: 0%;
+        margin: 0%;
+    }
+    #Title{
+         font-size: 75%;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    button.navbar-toggler{
+                border-color: yellow;
+        }
+    
+   
+  
+    
+  
+}
